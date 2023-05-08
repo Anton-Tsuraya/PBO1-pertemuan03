@@ -10,5 +10,14 @@ package String;
  * @author ANTON TSURAYA
  */
 public class OprasiString {
+    public static void main(String[] args) {
+        string kota = 'Banjarbaru';
+        
+        System.out.println("kota");
+        
+        char[]uniskaChar = { 'U','N','I','S','K','A' };
+        string uniskaString= new String(uniskaChar);
+        System.out.println("uniskaString");
+    }
     
 }
